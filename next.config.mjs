@@ -10,9 +10,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true
-  },
-  basePath: '/liu-jin-portfolio',
-  assetPrefix: '/liu-jin-portfolio/',
+  }
 }
 
 export default nextConfig

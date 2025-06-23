@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Portfolio() {
@@ -189,7 +188,7 @@ export default function Portfolio() {
               },
             ].map((project, index) => (
               <div key={index} className="project-card rounded-lg overflow-hidden">
-                <Image
+                <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   width={400}
